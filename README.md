@@ -1,16 +1,14 @@
-# hostel_management_app
+# Hostel Management App
 
-A new Flutter project.
+A Flutter-based mobile application to manage hostel activities.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Student login
+- Room allocation
+- Complaint system
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Firebase
