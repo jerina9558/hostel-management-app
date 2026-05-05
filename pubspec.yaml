@@ -1,0 +1,70 @@
+name: hostel_management_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# ✅ FIXED SDK CONSTRAINT
+environment:
+  sdk: "^3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ── PDF ─────────────────────────────────────────────
+  pdf: ^3.11.0
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+  printing: ^5.13.0
+
+  # ── Network & utilities ─────────────────────────────
+  http: ^1.2.0
+  intl: ^0.18.1
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.0
+
+  # ── Firebase ───────────────────────────────────────
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.0
+  firebase_messaging: ^16.1.1
+  google_sign_in: ^6.2.1
+
+  # ── Local storage ───────────────────────────────────
+  shared_preferences: ^2.2.2
+
+  # ── Maps & location ────────────────────────────────
+  google_maps_flutter: ^2.9.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+
+  # ── QR Scanner ─────────────────────────────────────
+  mobile_scanner: ^5.1.1
+
+  # ── Notifications ──────────────────────────────────
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # ✅ APP ICON PACKAGE
+  flutter_launcher_icons: ^0.13.1
+
+# ✅ APP ICON CONFIG
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icons.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

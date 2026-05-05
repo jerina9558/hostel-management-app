@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "577363375409",
+    "project_id": "digital-hostel-app",
+    "storage_bucket": "digital-hostel-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577363375409:android:c1b017d4638af7293f2c10",
+        "android_client_info": {
+          "package_name": "com.example.hostel_management_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577363375409-e34u5veq8pavshnrqpt0v4tspvon4oiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostel_management_app",
+            "certificate_hash": "761e608532302e759641058febe36d77f37c7dfc"
+          }
+        },
+        {
+          "client_id": "577363375409-8uf62d2esjtc9o4qv3e7uockfmjsec2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIhJJQvnx2Biuyg72EabT3m-kMyfWvJr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577363375409-8uf62d2esjtc9o4qv3e7uockfmjsec2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
